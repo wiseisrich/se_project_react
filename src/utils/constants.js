@@ -6,8 +6,8 @@ export const weatherOptions = [
   },
   {
     day: true,
-    condition: "cloudy",
-    url: new URL("../assets/day/cloudy.png", import.meta.url).href,
+    condition: "clouds",
+    url: new URL("../assets/day/clouds.png", import.meta.url).href,
   },
 
   {
@@ -17,8 +17,8 @@ export const weatherOptions = [
   },
   {
     day: false,
-    condition: "cloudy",
-    url: new URL("../assets/night/cloudy.png", import.meta.url).href,
+    condition: "clouds",
+    url: new URL("../assets/night/clouds.png", import.meta.url).href,
   },
 ];
 
@@ -95,7 +95,7 @@ export const defaultClothingItems = [
   {
     _id: 11,
     name: "Shorts",
-    weather: "Hot",
+    weather: "hot",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Shorts.png?etag=d728c496643f610de8d8fea92dd915ba",
   },
   {
@@ -135,4 +135,4 @@ export const coordinates = {
   longitude: -75.646759,
 };
 
-export const APIkey = "b898d37f18afd2ee7e2959badd479b93";
+export const apikey = "b898d37f18afd2ee7e2959badd479b93";

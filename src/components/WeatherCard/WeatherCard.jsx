@@ -17,8 +17,8 @@ function WeatherCard({ weatherData }) {
   }
 
   return (
-    <section className="Weather-card">
-      <p className="Weather-card__temp">{weatherData.temp.F} &deg; F</p>
+    <section className="weather-card">
+      <p className="weather-card__temp">{weatherData.temp.F} &deg; F</p>
       <img
         src={weatherOption?.url}
         alt={`card showing ${weatherOption?.day ? "day" : "night"}time ${
